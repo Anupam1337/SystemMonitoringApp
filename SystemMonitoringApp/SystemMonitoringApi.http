@@ -1,0 +1,13 @@
+@SystemMonitoringApi_HostAddress = http://localhost:7001
+
+POST {{SystemMonitoringApi_HostAddress}}/api/SystemMonitoring
+Content-Type: application/json
+Accept: application/json
+
+{
+  "cpu": 32.5,
+  "ram_used": 4096.5,
+  "disk_used": 102400.2
+}
+
+###
